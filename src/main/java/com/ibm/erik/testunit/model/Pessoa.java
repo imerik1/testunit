@@ -10,6 +10,6 @@ import java.util.List;
 public class Pessoa {
     private String nome;
     private String cpf;
+    private List<Telefone> telefones;
     private List<Endereco> enderecos;
-    private List <Telefone> telefones;
 }
