@@ -57,5 +57,4 @@ public class PessoaServiceTest {
         when(pessoaRepository.findById(CPF)).thenReturn(Optional.of(pessoa));
         sut.salvar(pessoa);
     }
-
 }
